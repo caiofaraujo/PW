@@ -1,0 +1,155 @@
+<!--
+// # HTML
+// a[href="https://google.com"] 
+
+// # FORMULÁRIOS
+// EXEMPLO 1
+
+<form action="/action_page.php" method="get">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+// EXEMPLO 2
+
+<form action="/action_page_post.php" method="post">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+</form>
+
+// # INPUTS
+// 
+// <input type="text/password/radio/checkbox" />
+
+<input type="radio" name ="sexo" value="Feminino" />
+<input type="radio" name ="sexo" value="Masculino" />
+
+// - RADIO-BUTTONS / CHECKBOX
+// <input type="radio/checkbox" />
+
+// - DATAS
+// <input type="date" /> 
+// 2017-09-14 / AAAA/MM/DD
+
+// # BUTTONS
+// - Criando botão em tela
+// <button type="submit/button/reset"> OK </button>
+
+// # ID
+// Obrigatoriamente é iniciado por uma letra
+// O valor de ID é unico, não pode se repetir na mesma página
+// <p id="paragrafo" />
+
+// # CLASS
+// - Lista de categorias
+// A mesma categoria pode aparecer em um único elemento
+// <p class="lindo feio estranho" />
+
+
+// CONSULTAS = GET
+// DADOS DE LOGIN = POST
+
+
+
+
+-->
+
+<!--
+	# CSS
+// Interpretar o código do seletor da direita para a esquerda
+//	
+// 	- Seletor {
+//		estilo: valor;
+//		estilo: valor2;
+//	}
+// - tagName
+// # id
+//	p 
+// div
+// form
+// #valor_id
+// .feio.estranho
+// p#valor.feio.estranho.lindo / (p#id.class.class.class)
+// 
+// IMPORTANTE: 
+// .class
+// #id
+// *
+// p > a
+// p a
+// p ~ a 
+// p + c
+// a[href="https://google.com"] 
+// a:hover
+// a:article
+// a:focus
+// a:active
+// a::before
+// a::after
+// p, a (todos os paragrafos e todos os links)
+// p, a, #valor.feio (todos os paragrafos, todos os links e todos ID de categoria feio)
+// background: #color;
+// color: #ccc / #ff0000 / rgb (255, 0, 0) / hsla (0, 100%, 50%, 0.5) / hsl (0%, 100%, 50%);
+// position: static/relative/absolut/fixed 
+// margin: top/right/buttom/left/auto
+// margin-top: 0;
+// margin-right: 0;
+// margin-left: 0;
+// margin-bottom: 0;
+// margin: auto;
+/
+//
+// # JAVASCRIPT
+//
+// p:firs.child
+// p:last.child
+// p: nth.child(n)
+// p: nth.last.child(n)
+// 
+
+// - Criando um evento
+// elm.addEventListener("click", function);
+// 
+// - Evento ao carregar a página
+// window.addEventListener("load", iniciar);
+//
+// - Encontrando o elemento
+// document.querySelector("p#id.class"); // RETORNAR UM PRIMEIRO ELEMENTO QUE ACHAR, CASO CONTRÁRIO RETORNA NULLO
+// document.querySelectorAll("p#id.class"); // RETORNA TODOS OS ELEMENTOS QUE ENCONTRAR, CASO CONTRÁRIO RETORNA UMA NODELIST VAZIA
+//
+// - Obtendo o atributo do elemento (Placeholder/id/name/class/href/title)
+// elm.getAttribute("name");
+//
+// - Setendo o atributo do elemento
+// elm.setAttribute("name", "idade"); // UTILIZADO PARA VALORES PADRÕES
+// 
+// - Alterando o atributo do elemento
+// elm.value ="novo_valor" // UTILIZADO PARA ALTERAR O VALOR DO ATRIBUTO
+//
+// - Listar Lista de Coleção
+// elm.className = "nome_classe"
+// elm.classList.add/remove/contains/toggle
+//
+// elm.textContent=""
+// elm.innerHTML="comandos_html / </br>"
+// 
+// var txt = document.createTextNode("nome do txt");
+// elt.appendChild(txt);
+//
+// var filho = document.createElement("div");
+// elm.appendChild(filho);
+//
+// - Listar filhos do elemento
+// elt.children
+//
+// - Remover elementos
+// elm.remove();
+// elm.parentNode.removeChild(elm);
+//
+//
+
+
+-->
